@@ -4,3 +4,4 @@ from bot.config import token
 
 bot = Bot(token=token)
 dp = Dispatcher(bot, storage=MemoryStorage())
+

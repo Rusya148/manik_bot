@@ -12,4 +12,3 @@ def register(dp):
     register_request_date(dp)
     register_delete(dp)
     register_salary(dp)
-

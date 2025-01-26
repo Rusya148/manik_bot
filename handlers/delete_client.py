@@ -27,4 +27,3 @@ async def handle_delete_client_link(message: Message, state):
 def register_delete_client(dp: Dispatcher):
     dp.register_message_handler(delete_client_text, text='Удалить клиента')
     dp.register_message_handler(handle_delete_client_link, state=DeleteForm.waiting_for_delete)
-

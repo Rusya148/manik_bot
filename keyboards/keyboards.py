@@ -48,4 +48,3 @@ kb_exit_delete = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Закрыть', callback_data='exit_delete')]
 ])
 
-

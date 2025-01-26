@@ -34,4 +34,3 @@ async def back_to_previous_state(callback_query: types.CallbackQuery, state):
 def register_handlers(dp: Dispatcher):
     dp.register_callback_query_handler(back_to_previous_state, text='back', state='*')
     dp.register_callback_query_handler(exit_state_delete, text='exit_delete', state='*')
-

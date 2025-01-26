@@ -108,4 +108,3 @@ def register_salary(dp: Dispatcher):
     dp.register_callback_query_handler(handle_continue_add, text="continue_add")
     dp.register_callback_query_handler(handle_cancel_add, text="cancel_add")
     dp.register_callback_query_handler(handle_remove_last_add, text="remove_last_add")
-
