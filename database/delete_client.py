@@ -13,3 +13,4 @@ def delete_client(client_link):
     except sqlite3.Error as e:
         print(f'Ошибка при удалении клиента: {e}')
         return False
+

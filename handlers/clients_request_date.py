@@ -65,3 +65,4 @@ def register_handlers(dp: Dispatcher):
     dp.register_callback_query_handler(client_today, text='clients_today')
     dp.register_callback_query_handler(client_week, text='clients_week')
     dp.register_callback_query_handler(client_month, text='clients_month')
+

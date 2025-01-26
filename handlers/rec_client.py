@@ -59,3 +59,4 @@ def register_handlers(dp: Dispatcher):
     dp.register_message_handler(process_link, state=Form.waiting_for_link)
     dp.register_message_handler(process_time, state=Form.waiting_for_time)
     dp.register_message_handler(process_request_for_data, state=Form.waiting_for_date)
+
