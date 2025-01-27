@@ -17,7 +17,6 @@ async def salary(message: Message):
 
 
 async def salary_month_selection(callback_query: CallbackQuery):
-    # Отправляем сообщение с инлайн-кнопками выбора месяца
     await callback_query.message.answer("Выберите месяц, чтобы посмотреть зарплату:", reply_markup=get_months_keyboard())
     await callback_query.answer()
 
